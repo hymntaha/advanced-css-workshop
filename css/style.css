@@ -45,8 +45,14 @@ body {
     text-transform: uppercase;
 }
 .heading-primary-main{
-
+    display: block;
+    font-size: 60px;
+    letter-spacing: 35px;
+    font-weight: 400;
 }
 .heading-primary-sub {
-
+    display: block;
+    font-size: 20px;
+    letter-spacing: 17.4px;
+    font-weight: 700;
 }
