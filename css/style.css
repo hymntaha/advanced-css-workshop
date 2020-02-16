@@ -50,15 +50,31 @@ body {
     color: #fff;
     text-transform: uppercase;
 }
-.heading-primary-main{
+.heading-primary-main {
     display: block;
     font-size: 60px;
     letter-spacing: 35px;
     font-weight: 400;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 .heading-primary-sub {
     display: block;
     font-size: 20px;
     letter-spacing: 17.4px;
     font-weight: 700;
+}
+@keyframes moveInLeft {
+0%{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+    80%{
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+
+    }
 }
