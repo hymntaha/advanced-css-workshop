@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hymntaha/advanced-css-workshop/issues"
   },
-  "homepage": "https://github.com/hymntaha/advanced-css-workshop#readme"
+  "homepage": "https://github.com/hymntaha/advanced-css-workshop#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
